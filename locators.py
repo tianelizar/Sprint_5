@@ -27,6 +27,7 @@ class Locators:
     LOGO = By.XPATH, "//a[./*[name()='svg' and @width='290' and @height='50']]" # логотип
 
     # в разделе Конструктор
-    BUNS = By.XPATH, "//div[contains(@class, 'tab_tab__1SPyG')]//span[text()='Булки']/.." # булки
-    SAUCES = By.XPATH, "//div[contains(@class, 'tab_tab__1SPyG')]//span[text()='Соусы']/.." # соусы
-    FILLINGS = By.XPATH, "//div[contains(@class, 'tab_tab__1SPyG')]//span[text()='Начинки']/.." # начинки
+    BUNS = By.XPATH, "//div[contains(@class, 'tab_tab')]//span[text()='Булки']/.." # булки
+    SAUCES = By.XPATH, "//div[contains(@class, 'tab_tab')]//span[text()='Соусы']/.." # соусы
+    FILLINGS = By.XPATH, "//div[contains(@class, 'tab_tab')]//span[text()='Начинки']/.." # начинки
+    ACTIVE_TAB = By.XPATH, "//div[contains(@class, 'tab_tab') and contains(@class, 'tab_tab_type_current')]" # активный раздел
