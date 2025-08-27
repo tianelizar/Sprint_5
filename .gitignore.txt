@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+*.pyc
+settings.json
+=======
+>>>>>>> e123b4969a3379cfd43453af00b647ab3a84bb54
+__pycache__/
+*.pyc
